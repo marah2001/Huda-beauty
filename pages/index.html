@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huda Beauty | التجربة الفاخرة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">HUDA BEAUTY</div>
+        <ul class="nav-links">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#products">المنتجات</a></li>
+            <li><a href="#tips">نصائح الجمال</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+        <div class="nav-icons">
+            <span>🛒</span>
+        </div>
+    </nav>
+
+ <header id="home" class="hero-section">
+    <div class="hero-content-wrapper">
+        <h1 class="elegant-title">Huda <br> Platinum</h1>
+        <div class="divider"></div>
+        <p>مجموعة العناية الفائقة المختارة لجمالكِ</p>
+        <button class="btn-modern" onclick="scrollToSection('products')">اكتشفي الآن</button>
+    </div>
+</header>
+
+    <section id="products" class="container">
+        <h2 class="section-main-title">المجموعة المختارة</h2>
+        <div class="product-grid">
+            <div class="product-card">
+    <div class="product-image">
+        <img src="../assets/pexels-cottonbro-4612151.jpg" alt="اسم المنتج">
+    </div>
+    <div class="product-details">
+        <span class="product-cat">سيرو بشرة</span>
+        <h3>سيروم فيتامين C للبشرة </h3>
+        <p class="price">20</p>
+        <button class="btn-buy">إضافة للسلة</button>
+    </div>
+</div>
+            </div>
+    </section>
+
+    <section id="tips" class="tips-section">
+        <div class="container">
+            <h2 class="section-main-title">دليل هدى للجمال</h2>
+            <div class="tips-container">
+                <div class="tip-card">
+                    <span class="tip-index">01</span>
+                    <h3>التنظيف المزدوج</h3>
+                    <p>استخدمي منظفاً زيتياً متبوعاً بمنظف مائي لإزالة الشوائب بعمق دون تجفيف البشرة.</p>
+                </div>
+                <div class="tip-card">
+                    <span class="tip-index">02</span>
+                    <h3>شرب الماء والترطيب</h3>
+                    <p>الترطيب الخارجي بالمنتجات لا يكتمل إلا بشرب 8 أكواب ماء يومياً لنضارة داخلية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <div class="contact-box">
+            <div class="contact-text">
+                <h2>تحدثي إلينا</h2>
+                <p>فريقنا من خبراء التجميل جاهز لتقديم استشارة مخصصة لكِ.</p>
+                <div class="contact-details">
+                    <span>📍 دبي، برج هدى</span>
+                    <span>✉️ support@hudabeauty.com</span>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name">الاسم بالكامل</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email">البريد الإلكتروني</label>
+                </div>
+                <div class="input-group">
+                    <textarea id="msg" required></textarea>
+                    <label for="msg">رسالتكِ</label>
+                </div>
+                <button type="submit" class="btn-submit">إرسال الآن</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>© 2025 عالم هدى بيوتي - جميع الحقوق محفوظة</p>
+    </footer>
+
+</body>
+</html>
